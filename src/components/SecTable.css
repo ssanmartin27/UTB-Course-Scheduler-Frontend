@@ -1,0 +1,8 @@
+
+.sec-table, .sec-row, .sec-cell{
+    border: none;
+}
+
+.info{
+    overflow-y: auto;
+}

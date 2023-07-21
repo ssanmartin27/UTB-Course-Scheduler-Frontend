@@ -1,0 +1,10 @@
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.buttons-container > button {
+    padding-left: 8px;
+    padding-right: 8px;
+}

@@ -1,0 +1,43 @@
+
+
+.form {
+    display: flex;
+    flex: 1 1 30%;
+    min-width: 25ch;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 8px;
+    height: 90vh;
+    overflow-y: auto;
+}
+
+.courseForms {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+@media (max-width: 750px) {
+    .form {
+      overflow-y :visible;
+      height:auto;
+      justify-content: stretch;
+    }
+
+    .schedule-main {
+        flex-direction: column-reverse;
+    }
+
+  }
+
+.button {
+    background-color: rgb(105, 214, 114);
+    border-width: 0px;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background-color: rgb(80, 150, 90);
+}
+

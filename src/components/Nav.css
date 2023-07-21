@@ -1,0 +1,12 @@
+
+.nav {
+    display: flex;
+    flex: 1 1 10%;
+    align-items: center;
+    background-color: rgb(105, 214, 114);
+    padding: 8px;
+}
+
+.nav h1 {
+    color: rgb(53, 57, 53);
+}

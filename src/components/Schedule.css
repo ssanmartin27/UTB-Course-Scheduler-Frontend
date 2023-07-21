@@ -1,0 +1,33 @@
+
+.schedule {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.scheduleTitle, td {
+    text-align: center;
+}
+
+table, .headersh, .headersv, td {
+    border: 1px solid rgba(193, 187, 187, 0.705);
+    border-collapse: collapse;
+    font-family: 'wotfardregular', sans-serif;
+}
+
+caption {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.schedule td {
+    max-width: 0;
+    text-overflow: ellipsis !important;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: small;
+}
+
+.headersh {
+    padding:0
+}
+
